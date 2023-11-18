@@ -1,0 +1,157 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(88, 1, 1);
+    color: aliceblue;
+    align-items: center;
+    padding: 10px;
+    padding-left: 10px;
+
+}
+
+.nav-title {
+    display: flex;
+    justify-content: center;
+    color: rgb(238, 184, 21);
+    height: 70px;
+    font-size: xxx-large;
+    align-items: center;
+    font-family: 'Lilita One', sans-serif;
+
+}
+
+.kormoonbon {
+
+    color: white;
+    font-size: 25px;
+    font-family: 'Lilita One', sans-serif;
+    padding: 50px;
+    font-family: 'Sriracha';
+
+
+}
+
+.kormoonlang {
+
+    color: white;
+    font-size: 25px;
+    font-family: 'Lilita One', sans-serif;
+    padding: 50px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    flex-direction: row;
+    
+
+}
+
+.logo>img {
+    height: 70vh;
+}
+
+.kormoon {
+    display: flex;
+    flex-direction: column;
+}
+
+.kormoonall {
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+}
+
+
+.button1 {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: absolute;
+    left: 0;
+}
+
+.button1 span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button1 span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button1:hover span {
+    padding-left: 25px;
+}
+
+.button1:hover span:after {
+    opacity: 0;
+    right: 0;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    position: absolute;
+    right: 0;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+
+h3 {
+    color: white;
+    padding-left: 10px;
+    font-family: 'Lilita One', sans-serif;
+    font-size: 40px;
+
+}
